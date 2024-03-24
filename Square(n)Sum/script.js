@@ -25,3 +25,11 @@ function squareSum_02(numbers) {
 
   return result;
 }
+//
+//
+//
+function squareSum_03(numbers) {
+  return numbers.reduce((acc, num) => acc + num * num, 0);
+}
+
+console.log("squareSum_03", squareSum_03([1, 2, 2]));
