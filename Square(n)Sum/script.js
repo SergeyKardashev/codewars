@@ -76,3 +76,12 @@ function squareSum_06(numbers) {
 }
 
 console.log("squareSum_06", squareSum_06([1, 2, 2]));
+//
+//
+//
+// map and reduce
+function squareSum_07(numbers) {
+  return numbers.map((i) => i ** 2).reduce((acc, num) => (acc += num), 0);
+}
+
+console.log("squareSum_07", squareSum_07([1, 2, 2]));
