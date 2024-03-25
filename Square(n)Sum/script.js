@@ -53,3 +53,17 @@ function squareSum_04(numbers) {
 }
 
 console.log("squareSum_04", squareSum_04([1, 2, 2]));
+//
+//
+//
+// for(let ... of ...)
+function squareSum_05(numbers) {
+  let sum = 0;
+  for (let i of numbers) {
+    sum += i ** 2;
+  }
+
+  return sum;
+}
+
+console.log("squareSum_05", squareSum_05([1, 2, 2]));
