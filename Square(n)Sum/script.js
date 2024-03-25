@@ -67,3 +67,12 @@ function squareSum_05(numbers) {
 }
 
 console.log("squareSum_05", squareSum_05([1, 2, 2]));
+//
+//
+//
+// reduce() with Math.pow
+function squareSum_06(numbers) {
+  return numbers.reduce((acc, num) => (acc += Math.pow(num, 2)), 0);
+}
+
+console.log("squareSum_06", squareSum_06([1, 2, 2]));
