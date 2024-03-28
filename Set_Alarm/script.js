@@ -21,6 +21,18 @@ function setAlarm_01(employed, vacation) {
   return employed === true && vacation === false ? true : false;
 }
 
+function setAlarm_01_short(employed, vacation) {
+  return employed && !vacation ? true : false;
+}
+
 function setAlarm_02(employed, vacation) {
   return employed && !vacation;
+}
+
+function setAlarm_03(employed, vacation) {
+  return employed ? !vacation : false;
+}
+
+function setAlarm_04(employed, vacation) {
+  return employed > vacation
 }
