@@ -26,7 +26,7 @@
 // }
 
 // Return by index
-var min = function(list){
+var min1 = function(list){
   let minIndex = 0;
 
   for (let i = 0; i <= list.length - 1; i++) {
@@ -38,7 +38,7 @@ var min = function(list){
   return list[minIndex];
 }
 
-var max = function (list) {
+var max1 = function (list) {
   let maxIndex = 0;
 
   for (i = 0; i <= list.length - 1; i++) {
@@ -49,3 +49,15 @@ var max = function (list) {
   
   return list[maxIndex];
 }
+// 
+// 
+// 
+// 
+const min2 = (arr) => Math.min(...arr);
+const max2 = (arr) => Math.max(...arr);
+
+
+
+
+
+
