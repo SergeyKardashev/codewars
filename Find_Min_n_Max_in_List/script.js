@@ -55,8 +55,18 @@ var max1 = function (list) {
 // 
 const min2 = (arr) => Math.min(...arr);
 const max2 = (arr) => Math.max(...arr);
+// 
+// 
+// 
+var min3 = (arr) => {
+  arr.sort((a, b) => a - b);
+  return arr[0];
+};
 
-
+var max3 = (arr) => {
+  arr.sort((a, b) => b -a);
+  return arr[0];
+};
 
 
 
