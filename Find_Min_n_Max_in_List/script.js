@@ -68,7 +68,14 @@ var max3 = (arr) => {
   arr.sort((a, b) => b -a);
   return arr[0];
 };
+// 
+// 
+// 
+function min4(arr) {
+  return Math.min.apply(null, arr);
+}
 
-
-
+function max4(arr) {
+  return Math.max.apply(null, arr);
+}
 
