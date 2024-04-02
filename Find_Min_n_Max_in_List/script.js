@@ -58,6 +58,7 @@ const max2 = (arr) => Math.max(...arr);
 // 
 // 
 // 
+// destructive sorting
 var min3 = (arr) => {
   arr.sort((a, b) => a - b);
   return arr[0];
