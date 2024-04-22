@@ -84,3 +84,20 @@ function max4(arr) {
 const min5 = (arr) => arr.sort((a, b) => a - b)[0];
 
 const max5 = (arr) => arr.sort((a,b) => b - a)[0];
+
+
+const min6 = arr => {
+  let res = arr[0];
+  for (let i = 1; i <= arr.length - 1; i++) {
+      res = res > arr[i] ? arr[i] : res;
+  }
+  return res;
+};
+
+const max6 = arr => {
+  let res = arr[0];
+  for (let i = 1; i <= arr.length - 1; i++) {
+      res = res < arr[i] ? arr[i] : res;
+  }
+  return res;
+};
