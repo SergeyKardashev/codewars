@@ -11,4 +11,8 @@ describe('Function cookPancakes: ', () => {
         expect(cookPancakes(4, 2)).toBe(4);
         expect(cookPancakes(4, 3)).toBe(3);
     });
+
+    test('should be a function', () => {
+        expect(cookPancakes).toBeInstanceOf(Function);
+    })
 });
