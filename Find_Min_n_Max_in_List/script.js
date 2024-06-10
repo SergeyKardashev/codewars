@@ -101,3 +101,5 @@ const max6 = arr => {
   }
   return res;
 };
+
+module.exports = { max1, max2, max3, max4, max5, max6, min1, min2, min3, min4, min5, min6 };
