@@ -1,0 +1,29 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(59, 55, 51);
+  color: rgb(223, 217, 210);
+  font-size: 20px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+.plain-text {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(255, 225, 189);
+}
+
+.code-snippet {
+  background-color: rgb(68, 64, 59);
+  color: rgb(243 225 117);
+  padding: 20px;
+  margin: 0;
+}
